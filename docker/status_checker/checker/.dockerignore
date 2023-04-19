@@ -1,0 +1,14 @@
+# Dockerfiles
+Dockerfile
+.dockerignore
+docker-compose.yml
+
+# Python projects
+.idea
+venv
+__pycache__
+
+# Git
+.git
+.gitignore
+README.md
