@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: proxy
+spec:
+  securityContext:
+    runAsUser: 10
+    runAsNonRoot: false
+  containers:
+  - name: nginx
+    image: nginx:1.14.2
+    ports:
+    - containerPort: 80
+    securityContext:
+      allowPrivilegeEscalation: true
