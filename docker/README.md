@@ -1,6 +1,6 @@
 # Docker
 
-There is a "Playground" with these examples running in a VM https://drive.google.com/file/d/1wXikX72BdVeNbkg1Qg0cqIABGCRidOFu.
+There is a "Playground" with these examples running in a VM https://drive.google.com/file/d/1g5fd_PrPddHtrFN7s1bxcl2wtE6a81c5.
 
 A good starting point is to scan the projects with KICS, https://github.com/Checkmarx/kics. KICS will help to identify the misconfigurations.
 
